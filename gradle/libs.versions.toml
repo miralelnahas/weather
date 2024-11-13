@@ -1,0 +1,85 @@
+[versions]
+activity-compose = "1.9.1"
+core-version = "1.13.1"
+appcompat-version = "1.6.1"
+kotlinx-coroutines-test = "1.6.0"
+material-version = "1.12.0"
+hilt-version = "2.51"
+hilt-compiler-version = "1.2.0"
+mockito-kotlin = "4.1.0"
+mockito-core = "4.9.0"
+navigation-version = "2.8.3"
+fragment-version = "1.7.1"
+glide-version = "1.0.0-beta01"
+legacy-support-version = "1.0.0"
+lifecycle-extensions-version = "2.2.0"
+lifecycle-viewmodel-version = "2.8.0"
+splashscreen-version = "1.0.1"
+shimmer-version = "0.5.0"
+retrofit-version = "2.9.0"
+paging-version = "3.3.0"
+room-version = "2.6.1"
+junit-version = "4.13.2"
+junit-ext-version = "1.1.5"
+espresso-version = "3.5.1"
+secrets-version = "2.0.1"
+agp-version = "8.2.0"
+kotlin-version = "1.9.10"
+data-store-version = "1.1.1"
+play-services-version = "21.3.0"
+serializable-version = "1.6.0"
+ui-text-google-fonts = "1.7.5"
+
+[libraries]
+activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activity-compose" }
+compose-ui = { module = "androidx.compose.ui:ui" }
+compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling" }
+compose-material3 = { module = "androidx.compose.material3:material3" }
+compose-animation = { module = "androidx.compose.animation:animation" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-version"}
+core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-version" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat-version" }
+kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines-test" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material-version" }
+hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt-version" }
+hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt-version" }
+hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-compiler-version" }
+hilt-compiler = { group = "androidx.hilt", name = "hilt-compiler", version.ref = "hilt-compiler-version" }
+dagger = { group = "com.google.dagger", name = "dagger", version.ref = "hilt-version" }
+dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "hilt-version" }
+mockito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito-kotlin" }
+mockito-core = { module = "org.mockito:mockito-core", version.ref = "mockito-core" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-version" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation-version" }
+navigation-safe-args-gradle-plugin = { group = "androidx.navigation", name = "navigation-safe-args-gradle-plugin", version.ref = "navigation-version" }
+fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragment-version" }
+glide = { group = "com.github.bumptech.glide" , name = "compose", version.ref = "glide-version"}
+glide-okhttp-integration = { group = "com.github.bumptech.glide" , name = "okhttp3-integration", version = "4.15.1"}
+legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", version.ref = "legacy-support-version" }
+lifecycle-extensions = { group = "androidx.lifecycle", name = "lifecycle-extensions", version.ref = "lifecycle-extensions-version" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle-viewmodel-version" }
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashscreen-version" }
+shimmer = { group = "com.facebook.shimmer", name = "shimmer", version.ref = "shimmer-version" }
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit-version" }
+retrofit-converter-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit-version" }
+paging-common-ktx = { group = "androidx.paging", name = "paging-common-ktx", version.ref = "paging-version" }
+paging-runtime-ktx = { group = "androidx.paging", name = "paging-runtime-ktx", version.ref = "paging-version" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room-version" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room-version" }
+room-paging = { group = "androidx.room", name = "room-paging", version.ref = "room-version" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room-version" }
+junit = { group = "junit", name = "junit", version.ref = "junit-version" }
+junit-test = { group = "androidx.test.ext", name = "junit", version.ref = "junit-ext-version" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-version" }
+secrets-gradle-plugin = { group = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", name = "secrets-gradle-plugin", version.ref = "secrets-version" }
+datastore-preferences = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "data-store-version"}
+datastore-preferences-core = { group = "androidx.datastore", name = "datastore-preferences-core", version.ref = "data-store-version"}
+serializable = {group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serializable-version"}
+ui-text-google-fonts = { group = "androidx.compose.ui", name = "ui-text-google-fonts", version.ref = "ui-text-google-fonts" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp-version" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin-version" }
+android-library = { id = "com.android.library", version.ref = "agp-version" }
